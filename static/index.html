@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-widtht">
+    <base href="http://localhost:3000/">
+    <title>Programming Lesson by Interight</title>
+
+    <script src="https://alcdn.msauth.net/browser/2.30.0/js/msal-browser.js"
+    integrity="sha384-o4ufwq3oKqc7IoCcR08YtZXmgOljhTggRwxP2CLbSqeXGtitAxwYaUln/05nJjit"
+    crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <h1>Hello! This is Interight Programming Lesson page</h1>
+    <h5 id="welcomeMessage">Please sign-in to see your profile and read your mails</h5>
+    <div>
+      <button type="button" id="signIn" onclick="signIn()">Sign In</button>
+      <button type="button" id="signOut" onclick="signOut()">Sign Out</button>
+    </div>
+    <p>user name</p>    
+    <a href="signin.html">Sign In</a>
+    <script type="text/javascript" src="./authConfig.mjs"></script>
+    <script type="text/javascript" src="./ui.mjs"></script>
+    <script type="text/javascript" src="./authPopup.mjs"></script>
+  </body>
+</html>
